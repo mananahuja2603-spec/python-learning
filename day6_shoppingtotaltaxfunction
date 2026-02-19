@@ -1,0 +1,6 @@
+def total_with_tax(amount,tax_rate):
+    tax=amount*tax_rate
+    return amount+tax
+
+bill=float(input("Bill amount: "))
+print("Total with 20% tax: ${:.2f}".format(total_with_tax(bill,0.20)))
