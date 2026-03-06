@@ -5,7 +5,7 @@ def grade(score):
         return "B"
     elif score>=70:
         return "C"
-    elif score>=00:
+    elif score>=60:
         return "D"
     else:
         return "F"

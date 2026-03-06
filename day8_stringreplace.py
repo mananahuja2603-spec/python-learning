@@ -1,0 +1,6 @@
+message=input("Enter message: ")
+old=input("Word to replace: ")
+new=input("Replace with: ")
+updated=message.replace(old,new)
+print("Original:", message)
+print("Updated:", updated)
